@@ -1,0 +1,18 @@
+
+Initial commit of SkIm, a python package for building LOFAR (Other?) Sky Image 
+formatted file under HDF5.
+
+THIS IS A PROTOTYPE package only. It does not configure HDF5 image files
+with the fully spec'd metadata in LOFAR Sky Image ICD, 
+Document ID:LOFAR-USG-ICD-004
+
+skimAll is an updated replacement for skim.py (though both work)
+
+Dependencies:: pytables, pyfits, HDF5
+
+Further dev for casa images and other Measurement Sets:: pyrap, casacore
+
+@TODO  The CLI is a clunk, specifically built for dealing with LOFAR imaging data
+as produced by the LOFAR standard imaging pipeline (sip). Command line positional
+arugment should be simplified.
+
